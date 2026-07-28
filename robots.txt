@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://uk-corporation-tax.tabutility.com/sitemap.xml
