@@ -274,6 +274,107 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 <div>Free, private, browser-based tools. No sign-up, no tracking.</div>
 <div style="margin-top:6px"><a href="https://tabutility.com" style="color:#818cf8;font-weight:600;text-decoration:none">All Tools</a> · <a href="https://tabutility.com/blog/" style="color:#94a3b8;text-decoration:none">Blog</a> · <a href="https://tabutility.com/about/" style="color:#94a3b8;text-decoration:none">About</a> · <a href="https://tabutility.com/privacy-policy/" style="color:#94a3b8;text-decoration:none">Privacy</a> · <a href="https://tabutility.com/contact/" style="color:#94a3b8;text-decoration:none">Contact</a></div>
 <div style="margin-top:6px;color:#64748b">© 2026 Tabutility</div>
-</footer>
+
+  <section id="seo-content" style="background:#1a1a2e;color:#e2e8f0;padding:60px 20px;margin-top:40px;border-top:1px solid #2d3748;">
+    <div style="max-width:860px;margin:0 auto;font-family:system-ui,-apple-system,sans-serif;line-height:1.7;">
+      <h2 style="font-size:2rem;font-weight:700;color:#f1f5f9;margin-bottom:24px;">How to Use the UK Corporation Tax Calculator</h2>
+      <p style="margin-bottom:16px;color:#cbd5e1;">The UK Corporation Tax Calculator computes the tax liability for a limited company for the 2025/26 tax year. It applies the small profits rate (19% on profits up to £50,000), the main rate (25% on profits above £250,000), and the marginal relief taper for profits between £50,000 and £250,000.</p>
+      <p style="margin-bottom:16px;color:#cbd5e1;">Enter your company's taxable profit. The calculator shows whether small profits rate, main rate, or marginal relief applies, the exact corporation tax calculation, and the effective tax rate. It also accounts for the associated company rules if relevant.</p>
+      <p style="margin-bottom:16px;color:#cbd5e1;">A critical nuance is the associated companies rule: if your company has associated companies (companies under common ownership), the £50,000 and £250,000 thresholds are divided by the number of associated companies. Two associated companies each have thresholds of £25,000 and £125,000 — dramatically lowering when they enter the marginal relief zone.</p>
+
+      <div style="background:#0f172a;border:1px solid #334155;border-radius:12px;padding:28px;margin:32px 0;">
+        <h3 style="font-size:1.2rem;font-weight:600;color:#f1f5f9;margin-bottom:16px;">📊 Worked Example</h3>
+        <p style="color:#94a3b8;margin:0 0 12px;">Company with £120,000 taxable profit (single company, 2025/26):</p>
+        <ul style="list-style:none;padding:0;margin:0;color:#cbd5e1;">
+          <li style="padding:6px 0;border-bottom:1px solid #1e293b;">Small profits rate: <strong style="color:#f1f5f9;">19% (on £0–£50,000)</strong></li>
+          <li style="padding:6px 0;border-bottom:1px solid #1e293b;">Main rate: <strong style="color:#f1f5f9;">25% (£250,000+) — marginal relief applies</strong></li>
+          <li style="padding:6px 0;border-bottom:1px solid #1e293b;">Corporation tax at full 25%: <strong style="color:#f1f5f9;">£30,000</strong></li>
+          <li style="padding:6px 0;border-bottom:1px solid #1e293b;">Marginal relief deduction: <strong style="color:#34d399;">−£7,217</strong></li>
+          <li style="padding:6px 0;">Effective CT: <strong style="color:#34d399;">£22,783 (19.0% effective rate)</strong></li>
+        </ul>
+      </div>
+
+      <h3 style="font-size:1.4rem;font-weight:600;color:#f1f5f9;margin:32px 0 16px;">Common Use Cases</h3>
+      <ul style="list-style:none;padding:0;margin:0 0 32px;">
+        <li style="padding:8px 0;border-bottom:1px solid #1e293b;color:#cbd5e1;">✅ Calculating your company's corporation tax liability for the year</li>
+        <li style="padding:8px 0;border-bottom:1px solid #1e293b;color:#cbd5e1;">✅ Understanding whether marginal relief applies to your profits</li>
+        <li style="padding:8px 0;border-bottom:1px solid #1e293b;color:#cbd5e1;">✅ Planning profit extraction strategies (salary vs dividends) accounting for CT</li>
+        <li style="padding:8px 0;border-bottom:1px solid #1e293b;color:#cbd5e1;">✅ Calculating the effective tax rate for your business</li>
+        <li style="padding:8px 0;border-bottom:1px solid #1e293b;color:#cbd5e1;">✅ Estimating CT for business planning and cash flow forecasting</li>
+        <li style="padding:8px 0;border-bottom:1px solid #1e293b;color:#cbd5e1;">✅ Understanding how associated companies affect CT thresholds</li>
+      </ul>
+
+      <h3 style="font-size:1.4rem;font-weight:600;color:#f1f5f9;margin:32px 0 24px;">Frequently Asked Questions</h3>
+      <div style="margin-bottom:24px;">
+        <h4 style="font-size:1rem;font-weight:600;color:#f1f5f9;margin-bottom:8px;">What is the UK corporation tax rate for 2025/26?</h4>
+        <p style="color:#cbd5e1;margin:0;">The main rate is 25% for profits above £250,000. The small profits rate is 19% for profits up to £50,000. For profits between £50,000 and £250,000, marginal relief applies with an effective marginal rate of approximately 26.5% through the band. These rates have applied since April 2023.</p>
+      </div>
+      <div style="margin-bottom:24px;">
+        <h4 style="font-size:1rem;font-weight:600;color:#f1f5f9;margin-bottom:8px;">What is marginal relief for corporation tax?</h4>
+        <p style="color:#cbd5e1;margin:0;">Marginal relief smooths the transition from the 19% small profits rate to the 25% main rate for profits between £50,000 and £250,000. It's calculated as: Marginal Relief = (£250,000 − taxable profits) × (£250,000 / taxable profits) × 3/200. The effective marginal rate through the band is approximately 26.5%.</p>
+      </div>
+      <div style="margin-bottom:24px;">
+        <h4 style="font-size:1rem;font-weight:600;color:#f1f5f9;margin-bottom:8px;">When is corporation tax due?</h4>
+        <p style="color:#cbd5e1;margin:0;">For most companies, corporation tax is due 9 months and 1 day after the end of the accounting period. For large companies (over £1.5m profit), quarterly instalment payments apply. Companies must file a CT600 tax return online with HMRC within 12 months of the accounting period end.</p>
+      </div>
+      <div style="margin-bottom:24px;">
+        <h4 style="font-size:1rem;font-weight:600;color:#f1f5f9;margin-bottom:8px;">Can my company claim R&D tax relief?</h4>
+        <p style="color:#cbd5e1;margin:0;">Yes. SMEs can claim enhanced deductions or a cash credit for qualifying R&D expenditure. From April 2024, a single RDEC (R&D Expenditure Credit) scheme applies for most companies. The credit rate is 20% for qualifying R&D spend, reducing the effective cost of R&D activity.</p>
+      </div>
+      <div style="margin-bottom:24px;">
+        <h4 style="font-size:1rem;font-weight:600;color:#f1f5f9;margin-bottom:8px;">What is the Annual Investment Allowance?</h4>
+        <p style="color:#cbd5e1;margin:0;">The Annual Investment Allowance (AIA) allows companies to deduct the full cost of qualifying plant and machinery in the year of purchase rather than spreading depreciation over several years. The AIA is £1 million per year, making it a powerful tool for capital-intensive businesses to reduce their corporation tax bill.</p>
+      </div>
+    </div>
+  </section>
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the UK corporation tax rate for 2025/26?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The main rate is 25% for profits above £250,000. The small profits rate is 19% for profits up to £50,000. For profits between £50,000 and £250,000, marginal relief applies with an effective marginal rate of approximately 26.5% through the band. These rates have applied since April 2023."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is marginal relief for corporation tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Marginal relief smooths the transition from the 19% small profits rate to the 25% main rate for profits between £50,000 and £250,000. It's calculated as: Marginal Relief = (£250,000 − taxable profits) × (£250,000 / taxable profits) × 3/200. The effective marginal rate through the band is approximately 26.5%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When is corporation tax due?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most companies, corporation tax is due 9 months and 1 day after the end of the accounting period. For large companies (over £1.5m profit), quarterly instalment payments apply. Companies must file a CT600 tax return online with HMRC within 12 months of the accounting period end."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can my company claim R&D tax relief?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. SMEs can claim enhanced deductions or a cash credit for qualifying R&D expenditure. From April 2024, a single RDEC (R&D Expenditure Credit) scheme applies for most companies. The credit rate is 20% for qualifying R&D spend, reducing the effective cost of R&D activity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Annual Investment Allowance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Annual Investment Allowance (AIA) allows companies to deduct the full cost of qualifying plant and machinery in the year of purchase rather than spreading depreciation over several years. The AIA is £1 million per year, making it a powerful tool for capital-intensive businesses to reduce their corporation tax bill."
+      }
+    }
+  ]
+}
+  </script>
+  </footer>
 </body>
 </html>
